@@ -641,6 +641,20 @@
                 </div>
                 <div class="service-card">
                     <div class="service-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3>Construction Métallique</h3>
+                    <p>Conception et réalisation de structures métalliques sur mesure pour bâtiments industriels, commerciaux et ouvrages d'art.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-hard-hat"></i>
+                    </div>
+                    <h3>Charpentes Métalliques</h3>
+                    <p>Montage, fabrication et pose de charpentes métalliques avec une précision technique pour des structures solides et durables.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
                         <i class="fas fa-bolt"></i>
                     </div>
                     <h3>Électricité Industrielle</h3>
@@ -715,28 +729,28 @@
             </div>
             <div class="projects-grid">
                 <div class="project-card" data-category="architecture">
-                    <img src="" alt="Projet architectural">
+                    <img src="images/ten.avif" alt="Projet architectural">
                     <div class="project-info">
                         <h3>Complexe Résidentiel</h3>
                         <p>Lomé, Togo - 2023</p>
                     </div>
                 </div>
                 <div class="project-card" data-category="genie-civil">
-                    <img src="https://images.unsplash.com/photo-1605100804763-247f67b3557e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet génie civil">
+                    <img src="images/five.jpg" alt="Projet génie civil">
                     <div class="project-info">
                         <h3>Pont Métallique</h3>
                         <p>Kpalimé, Togo - 2022</p>
                     </div>
                 </div>
                 <div class="project-card" data-category="industriel">
-                    <img src="https://images.unsplash.com/photo-1581093450021-4a7360e9a9d5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet industriel">
+                    <img src="images/eight.jpg">
                     <div class="project-info">
-                        <h3>Usine Pharmaceutique</h3>
+                        <h3>Entreprise</h3>
                         <p>Kara, Togo - 2024</p>
                     </div>
                 </div>
                 <div class="project-card" data-category="architecture">
-                    <img src="https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80" alt="Projet commercial">
+                    <img src="images/nine.jpg" alt="Projet commercial">
                     <div class="project-info">
                         <h3>Centre Commercial</h3>
                         <p>Atakpamé, Togo - 2023</p>
@@ -807,6 +821,40 @@
             </div>
         </div>
     </section>
+    <!-- Bouton WhatsApp flottant -->
+<div class="whatsapp-float">
+    <a href="https://wa.me/22892116718" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i> <!-- Icône WhatsApp -->
+    </a>
+</div>
+
+<!-- Style CSS pour le bouton flottant -->
+<style>
+    .whatsapp-float {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 60px;
+        height: 60px;
+        background-color: #25D366; /* Couleur verte WhatsApp */
+        color: white;
+        border-radius: 50%;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        z-index: 1000;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.3s ease;
+    }
+    .whatsapp-float:hover {
+        background-color: #128C7E; /* Couleur verte plus foncée au survol */
+        transform: scale(1.1);
+    }
+    .whatsapp-float i {
+        font-size: 30px;
+    }
+</style>
 
     <!-- Footer -->
     <footer>
@@ -853,6 +901,7 @@
             </div>
         </div>
     </footer>
+
 
     <script>
         // Mobile Menu Toggle
